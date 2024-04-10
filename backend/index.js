@@ -5,7 +5,7 @@ import cors from "cors";
 const app = express();
 const port = 4000;
 
-const uri ="mongodb+srv://dharshan3:dharshan3@cluster0.ruslxri.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const uri ="mongodb+srv://dharshan3:<password>@cluster0.ruslxri.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 mongoose
   .connect(uri, {
